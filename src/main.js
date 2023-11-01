@@ -60,7 +60,7 @@ async function getCategoriesPreview() {
 
   const categories = data.genres;
 
-  createCategories(categories, categoriesPreviewList)
+  createCategories(categories, categoriesPreviewList);
   
 }
 
